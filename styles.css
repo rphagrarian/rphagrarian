@@ -729,8 +729,8 @@ p {
       /* Full-width containers */
         .container {
           width: 100%;
-          padding-left: 70px;
-          padding-right: 25px;
+          padding-left: 0px;
+          padding-right: 0px;
         }
       
       /* Make sure that all arrows are pointing leftwards */
@@ -743,7 +743,7 @@ p {
       
       /* Make sure all circles are at the same spot */
         .left::after, .right::after {
-          left: 120px;
+          left: -80px;
         }
       
       /* Make all right containers behave like the left ones */
